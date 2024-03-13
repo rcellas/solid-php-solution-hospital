@@ -1,21 +1,21 @@
 <?php
 namespace Solid;
 
-require_once '../solid/1-S/Rooms.php';
-require_once '../solid/1-S/RoomsAssigments.php';
-require_once '../solid/2-O/Medicament.php';
-require_once '../solid/2-O/prescription/DetailPrescription.php';
-require_once '../solid/2-O/prescription/Prescription.php';
-require_once '../solid/2-O/prescription/PrescriptionPrinter.php';
-require_once '../solid/2-O/prescription/SimplePrescription.php';
-require_once '../solid/3-L/Surgeon.php';
-require_once '../solid/4-I/Insulin.php';
-require_once '../solid/4-I/Aspirine.php';
-require_once '../solid/4-I/interface/Injectable.php';
-require_once '../solid/4-I/interface/Oral.php';
-require_once '../solid/5-D/Admissions.php';
-require_once '../solid/theGoodPatient/PatientModel.php';
-require_once '../solid/theGoodPatient/IPatient.php';
+require_once '../solid-php-solution-hospital/1-S/Rooms.php';
+require_once '../solid-php-solution-hospital/1-S/RoomsAssigments.php';
+require_once '../solid-php-solution-hospital/2-O/Medicament.php';
+require_once '../solid-php-solution-hospital/2-O/prescription/DetailPrescription.php';
+require_once '../solid-php-solution-hospital/2-O/prescription/Prescription.php';
+require_once '../solid-php-solution-hospital/2-O/prescription/PrescriptionPrinter.php';
+require_once '../solid-php-solution-hospital/2-O/prescription/SimplePrescription.php';
+require_once '../solid-php-solution-hospital/3-L/Surgeon.php';
+require_once '../solid-php-solution-hospital/4-I/Insulin.php';
+require_once '../solid-php-solution-hospital/4-I/Aspirine.php';
+require_once '../solid-php-solution-hospital/4-I/interface/Injectable.php';
+require_once '../solid-php-solution-hospital/4-I/interface/Oral.php';
+require_once '../solid-php-solution-hospital/5-D/Admissions.php';
+require_once '../solid-php-solution-hospital/theGoodPatient/PatientModel.php';
+require_once '../solid-php-solution-hospital/theGoodPatient/IPatient.php';
 
 use Solid\S\Room;
 use Solid\S\RoomAssignments;
